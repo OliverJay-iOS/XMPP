@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'XMPP_Example' do
+  pod 'XMPP', :path => '../'
+
+  target 'XMPP_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
